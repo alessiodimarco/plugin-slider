@@ -12,10 +12,10 @@
  function tbare_wordpress_plugin_demo($atts) {
 	 
 	wp_register_script( 'slider-owl-js', plugin_dir_url( __FILE__ ).('/js/owl.carousel.min.js'), array( 'jquery' ) );
-    wp_enqueue_script( 'slider-owl-js' );
+    	wp_enqueue_script( 'slider-owl-js' );
 	
 	wp_register_script( 'slider-init-owl-js', plugin_dir_url( __FILE__ ).('/js/init.js'), array( 'jquery' ) );
-    wp_enqueue_script( 'slider-init-owl-js' );
+    	wp_enqueue_script( 'slider-init-owl-js' );
 	
 	wp_enqueue_style( 'slider-owl-css', plugin_dir_url( __FILE__ ).( '/css/owl.carousel.min.css' ) );
 	wp_enqueue_style( 'slider-css', plugin_dir_url( __FILE__ ).( '/css/slider.css' ) );
