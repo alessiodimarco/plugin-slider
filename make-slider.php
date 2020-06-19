@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: TBare Wodpress Plugin demo
- * Plugin URI: https://www.tbare.com
- * Description: Display content using a shortcode to insert in a page or post
- * Version: 0.1
- * Text Domain: tbare-wordpress-plugin-demo
- * Author: Tim Bare
- * Author URI: https://www.tbare.com
+ * Plugin Name: Semplice Slider
+ * Plugin URI: https://www.esempio.com
+ * Description: Mostra uno slider mediante l'utilizzo dello shortcode [slider]
+ * Version: 1
+ * Text Domain: semplice-slider
+ * Author: Alessio di Marcoberardino
+ * Author URI: https://www.esempio.com
  */
  
  function tbare_wordpress_plugin_demo($atts) {
